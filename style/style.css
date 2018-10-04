@@ -1,0 +1,155 @@
+body
+{
+    box-sizing: border-box;
+	display: block;
+	height: 100%;
+}
+#area{
+	position: relative;
+	min-height: 70%;
+	width: 99.26%;
+    
+}
+div {
+	 display: block;
+}
+div ul li  {
+	margin : 0px;
+	padding : 0px;
+	list-style-type: none;
+	display: inline;
+    font-size: 13px;
+	font-family: roboto;
+
+}
+div ul li a
+{
+	text-decoration: none;
+	display: block;
+	color: black;
+}
+
+div ul{
+	padding: 0px 20px 0px 20px;
+	display: grid;
+    align-items: center;
+    grid-template-columns: 50px 65px 35px 70px;
+    justify-content: flex-end;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+
+li a button {
+	width: 70px;
+	height: 30px;
+	background-color: #4B8EF7;
+	color: white;
+	font-weight: 600;
+	border-radius: 3px;
+	border-style: hidden;
+}
+li a button:focus{
+	background-color: rgba(32,94,203,1.00);
+}
+
+.logo {
+	display: block;
+	margin:  153px auto 10px auto;
+}
+
+div input {
+	background: url("../image/mic.svg") no-repeat center;
+	background-size: 14px;
+	background-position: 550px;
+	font-size: 16px;
+	border-radius: 2px;
+	border-color: transparent;
+	box-shadow: rgba(0, 0, 0, 0.20) 0px 3px 4px 0px, rgba(0, 0, 0, 0.1) 1px 0px 1px 1px;
+	width: 580px;
+	height: 38px;
+	display: block;
+	margin:0px auto 0px auto;
+	border: 0px auto;
+	padding: 0px auto;
+}
+
+div input:hover{
+	box-shadow: rgba(0, 0, 0, 0.23) 0px 3.3px 4.5px 0px, rgba(0, 0, 0, 0.13) 1.2px 0px 1.2px 1.2px;
+}
+
+div input:focus{
+	outline-color: transparent;
+}
+
+center {
+	display: block;
+	align-content: center;
+	text-align: center;
+}
+div .button 
+{
+    display: inline-block;
+    background-color: rgb(242, 242, 242);
+    color: rgb(117, 117, 117);
+    padding: 0px 16px 0;
+    font-size: 13px;
+    font-weight: bold;
+    height: 36px;
+    cursor: pointer;
+    margin: 11px 2px;
+    border: 1px solid transparent;
+}
+div .button:focus, div .button:hover
+{
+	color: #131313;
+    border: 1px solid #c6c6c6;
+    text-decoration: none;
+}
+div .button:focus
+{
+    outline: none;
+}
+.nav
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+	display: block;
+	margin: 0 0 0 -5px;
+	border: 0;
+	line-height: 40px;
+    background-color: #f2f2f2;
+}
+.nav .up
+{
+	font-family: roboto;
+	display: block;
+    font-size: 15px;
+	align-items: center;
+    color: rgba(0, 0, 0, 0.54);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+	border-top: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 1px 30px;
+    
+}
+.nav .down
+{
+	
+	align-items: center;
+    margin: 0;
+    padding-right: 30px;
+    height: 40px;
+    display: flex;
+	border: 0;
+    justify-content: space-between;
+}
+.nav .down span a
+{
+	text-decoration: none;
+	font-family: roboto;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.74);
+    padding-left: 30px;
+}
